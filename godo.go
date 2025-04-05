@@ -56,6 +56,3 @@ func main() {
 		}
 	}
 }
-
-// save into a json
-// turn into tui with bubbletea library
