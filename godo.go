@@ -5,8 +5,11 @@ import (
 	"encoding/json"
 	"fmt"
 	"os"
-)
 
+    tea "github.com/charmbracelet/bubbletea"
+)
+//just for saving
+tea.Model
 type todo struct {
 	Desc string `json:desc`
 	Done bool   `json:done`
